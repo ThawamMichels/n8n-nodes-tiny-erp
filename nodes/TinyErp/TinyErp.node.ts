@@ -9,7 +9,7 @@ export class TinyErp implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Tiny ERP',
 		name: 'tinyErp',
-		icon: 'file:TINYCustomNodeCAPI.png',
+		icon: 'file:capi_ico.PNG',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
